@@ -14,19 +14,17 @@ Aplicação com o intuito de criar um clone do menu inicial do aplicativo Nubank
 
 ## Capturas de Tela
 
-# Pagina inicial
+### Pagina inicial
 
 <img src="home_1.png" width="250">
 
-# Pagina inicial - demais items
+### Pagina inicial - demais items
 
 <img src="home_3.png" width="250">
 
-# Pagina inicial - Ocultar valores ativo
+### Pagina inicial - Ocultar valores ativo
 
 <img src="home_2.png" width="250">
-
-
 
 ### Bibliotecas
 
