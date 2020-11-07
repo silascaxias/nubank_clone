@@ -14,17 +14,41 @@ export const Card = styled.View`
 
 export const CardHeader = styled.View`
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  margin-top: 30px;
+  margin-left: 25px;
 `;
 
-export const CardContent = styled.View``;
+export const CardContent = styled.View`
+  margin-top: 15px;
+  margin-left: 25px;
+`;
 
-export const Title = styled.Text``;
+export const Title = styled.Text`
+  color: #666;
+  margin-left: 15px;
+`;
 
-export const Description = styled.Text``;
+export const Icon = styled.Image`
+  tint-color: #666;
+  height: 28px;
+  width: 28px;
+`;
 
-export const CardFooter = styled.View``;
+export const Description = styled.Text`
+  color: #666;
+  padding-bottom: 5px;
+`;
 
-export const Annotation = styled.Text``;
+export const CardFooter = styled.View`
+  flex-direction: row;
+  margin-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+`;
+
+export const ValueFooter = styled.Text`
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+`;

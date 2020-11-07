@@ -1,6 +1,4 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-
 import {
   Content,
   Card,
@@ -8,24 +6,26 @@ import {
   CardContent,
   Title,
   Description,
-  Annotation,
+  Icon,
   CardFooter,
+  ValueFooter,
 } from './styles';
+
+import accountIcon from '~/assets/icons/account-icon.png';
 
 export default function CardAccount() {
   return (
     <Content>
       <Card>
         <CardHeader>
-          <Icon name="attach-money" size={28} color="#666" />
-          <Icon name="visibility-off" size={28} color="#666" />
+          <Icon source={accountIcon} />
+          <Title>Conta</Title>
         </CardHeader>
         <CardContent>
-          <Title>Saldo disponível</Title>
-          <Description>R$ 197.611,65</Description>
+          <Description>Saldo disponível</Description>
         </CardContent>
         <CardFooter>
-          <Annotation>Transferência de R$ 20,00 recebida</Annotation>
+          <ValueFooter>R$ 50.000,00</ValueFooter>
         </CardFooter>
       </Card>
     </Content>
