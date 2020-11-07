@@ -18,7 +18,7 @@ Aplicação com o intuito de criar um clone do menu inicial do aplicativo Nubank
 
 <img src="home_1.png" width="250">
 
-### Pagina inicial - demais items
+### Pagina inicial - demais itens
 
 <img src="home_3.png" width="250">
 
