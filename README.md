@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação com o intuito de criar um clone do menu inial do aplicativo Nubank, utilizando React Native, React Native Gesture Handler, React Native Vector Icons, styled-components e react-native-iphone-x-helper.
+Aplicação com o intuito de criar um clone do menu inicial do aplicativo Nubank utilizando React Native.
 
 ## Capturas de Tela
 
