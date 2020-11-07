@@ -12,11 +12,12 @@ import {
   CardFooter,
   TextFooter,
   CardButton,
+  ShadowView,
 } from './styles';
 
 import bankLoan from '~/assets/icons/bank-loan-icon.png';
 
-export default function CardBankLoan() {
+export default function CardBankLoan({isVisible}) {
   return (
     <Content>
       <Card>
@@ -25,8 +26,14 @@ export default function CardBankLoan() {
           <Title>Empréstimo</Title>
         </CardHeader>
         <CardContent>
-          <Description>Valor disponível de até</Description>
-          <Value>R$ 50.000,00</Value>
+          {isVisible ? (
+            <>
+              <Description>Valor disponível de até</Description>
+              <Value>R$ 50.000,00</Value>
+            </>
+          ) : (
+            <ShadowView />
+          )}
         </CardContent>
         <CardFooter>
           <CardButton>

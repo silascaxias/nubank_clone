@@ -66,3 +66,10 @@ export const CardButton = styled.TouchableOpacity`
   padding: 15px;
   border-radius: 5px;
 `;
+
+export const ShadowView = styled.View`
+  margin-top: 10px;
+  margin-right: 25px;
+  height: 38px;
+  background: rgba(0, 0, 0, 0.09);
+`;

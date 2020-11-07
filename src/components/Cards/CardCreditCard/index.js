@@ -12,11 +12,13 @@ import {
   CardFooter,
   TextFooter,
   ValueFooter,
+  ValueFooterContainer,
+  ShadowView,
 } from './styles';
 
 import creditCard from '~/assets/icons/credit-card-icon.png';
 
-export default function CardCreditCard() {
+export default function CardCreditCard({isVisible}) {
   return (
     <Content>
       <Card>
@@ -26,11 +28,19 @@ export default function CardCreditCard() {
         </CardHeader>
         <CardContent>
           <Description>Fatura atual</Description>
-          <Value>R$ 0,00</Value>
         </CardContent>
         <CardFooter>
-          <TextFooter>Limite disponível</TextFooter>
-          <ValueFooter>R$ 50.000,00</ValueFooter>
+          {isVisible ? (
+            <>
+              <Value>R$ 0,00</Value>
+              <ValueFooterContainer>
+                <TextFooter>Limite disponível</TextFooter>
+                <ValueFooter>R$ 50.000,00</ValueFooter>
+              </ValueFooterContainer>
+            </>
+          ) : (
+            <ShadowView />
+          )}
         </CardFooter>
       </Card>
     </Content>

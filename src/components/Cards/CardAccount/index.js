@@ -9,11 +9,12 @@ import {
   Icon,
   CardFooter,
   ValueFooter,
+  ShadowView,
 } from './styles';
 
 import accountIcon from '~/assets/icons/account-icon.png';
 
-export default function CardAccount() {
+export default function CardAccount({isVisible}) {
   return (
     <Content>
       <Card>
@@ -25,7 +26,7 @@ export default function CardAccount() {
           <Description>Saldo disponível</Description>
         </CardContent>
         <CardFooter>
-          <ValueFooter>R$ 50.000,00</ValueFooter>
+          {isVisible ? <ValueFooter>R$ 50.000,00</ValueFooter> : <ShadowView />}
         </CardFooter>
       </Card>
     </Content>
