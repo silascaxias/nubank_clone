@@ -1,20 +1,17 @@
 import React from 'react';
 
 import {
-  Content,
-  Card,
-  CardHeader,
-  CardContent,
   Title,
   Description,
   Value,
-  Icon,
   CardFooter,
   TextFooter,
   ValueFooter,
   ValueFooterContainer,
   ShadowView,
 } from './styles';
+
+import {Content, Card, CardHeader, CardContent, Icon} from '../styles';
 
 import creditCard from '~/assets/icons/credit-card-icon.png';
 

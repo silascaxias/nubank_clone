@@ -1,16 +1,7 @@
 import React from 'react';
-import {
-  Content,
-  Card,
-  CardHeader,
-  CardContent,
-  Title,
-  Description,
-  Icon,
-  CardFooter,
-  ValueFooter,
-  ShadowView,
-} from './styles';
+import {Description, CardFooter, ValueFooter, ShadowView} from './styles';
+
+import {Content, Card, CardHeader, CardContent, Title, Icon} from '../styles';
 
 import accountIcon from '~/assets/icons/account-icon.png';
 
