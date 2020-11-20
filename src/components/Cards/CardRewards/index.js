@@ -1,17 +1,15 @@
 import React from 'react';
 
+import {Title, Description, CardFooter, TextFooter} from './styles';
+
 import {
   Content,
   Card,
   CardHeader,
-  CardContent,
-  Title,
-  Description,
-  Icon,
-  CardFooter,
-  TextFooter,
   CardButton,
-} from './styles';
+  CardContent,
+  Icon,
+} from '../styles';
 
 import rewardsIcon from '~/assets/icons/rewards-icon.png';
 
@@ -20,7 +18,7 @@ export default function cardRewards() {
     <Content>
       <Card>
         <CardHeader>
-          <Icon source={rewardsIcon} />
+          <Icon source={rewardsIcon} tintColor={'#8B10AE'} />
           <Title>Rewards</Title>
         </CardHeader>
         <CardContent>

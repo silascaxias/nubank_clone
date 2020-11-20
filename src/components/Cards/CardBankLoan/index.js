@@ -1,19 +1,16 @@
 import React from 'react';
 
+import {Description, Value, CardFooter, TextFooter, ShadowView} from './styles';
+
 import {
   Content,
   Card,
   CardHeader,
   CardContent,
   Title,
-  Description,
-  Value,
   Icon,
-  CardFooter,
-  TextFooter,
   CardButton,
-  ShadowView,
-} from './styles';
+} from '../styles';
 
 import bankLoan from '~/assets/icons/bank-loan-icon.png';
 
